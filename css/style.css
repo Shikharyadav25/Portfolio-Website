@@ -190,6 +190,10 @@ nav {
     position: relative;
 }
 
+.hero .eyebrow {
+    font-size: 18px;
+}
+
 .hero-inner {
     max-width: 760px;
 }
