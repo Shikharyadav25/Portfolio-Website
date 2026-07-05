@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikhar Yadav</title>
+    <meta name="description"
+        content="Portfolio of Shikhar Yadav — CS Engineering student building full-stack products and applied ML systems.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#top" class="brand"><span class="bracket">&lt;</span>Shikhar Yadav<span
+                    class="bracket">/&gt;</span></a>
+            <div class="nav-links">
+                <a href="#about">about</a>
+                <a href="#coding">profiles</a>
+                <a href="#skills">stack</a>
+                <a href="#projects">projects</a>
+                <a href="#contact">connect</a>
+            </div>
+            <a href="mailto:shikharyadav704@gmail.com" class="nav-cta js-say-hi">say hi ↗</a>
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#about">about</a>
+            <a href="#coding">profiles</a>
+            <a href="#skills">stack</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">connect</a>
+            <a href="mailto:shikharyadav704@gmail.com">say hi ↗</a>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="wrap">
+                <div class="hero-inner">
+                    <div class="eyebrow">$ whoami</div>
+                    <h1 id="heroName"><span id="typewriter"></span><span class="cursor"></span></h1>
+                    <div class="role-line">Full-Stack Developer <span>·</span> Competitive Programmer <span>·</span> ML
+                        Enthusiast</div>
+                    <p class="lede">
+                        CS Engineering student at <b>Pranveer Singh Institute of Technology</b>, building
+                        full-stack products end to end — from a civic issue-reporting platform to an
+                        AI-assisted stock prediction engine.
+                    </p>
+                    <div class="btn-row">
+                        <a href="#projects" class="btn btn-primary">View projects →</a>
+                        <a href="mailto:shikharyadav704@gmail.com" class="btn btn-ghost js-say-hi">Say hi</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ticker">
+                <div class="ticker-track" id="tickerTrack"></div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <div class="eyebrow">// 01 — about</div>
+                    <h2>Still learning, already shipping.</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p>
+                            I'm a <b>Computer Science Engineering student</b> at Pranveer Singh Institute of
+                            Technology, Kanpur (CGPA: 8.04), and I like building things end to end — from the
+                            database schema and backend logic to the interface someone actually clicks.
+                        </p>
+                        <p>
+                            My project work spans <b>civic tech</b> — Civic Connect, an issue-reporting platform
+                            with live maps and Firebase auth — and <b>applied machine learning</b> — Stock Bull,
+                            an AI-assisted stock prediction platform combining ensemble models with news
+                            sentiment analysis.
+                        </p>
+                        <p>
+                            Outside of building, I'm an active <b>competitive programmer</b>, regularly solving
+                            problems across LeetCode, Codeforces, and CodeChef.
+                        </p>
+
+                        <div class="coursework">
+                            <span>Operating Systems</span>
+                            <span>Computer Architecture</span>
+                            <span>Data Structures</span>
+                            <span>Discrete Mathematics</span>
+                        </div>
+                    </div>
+
+                    <div class="code-card reveal">
+                        <div class="code-head">
+                            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+                            profile.json
+                        </div>
+                        <pre>{
+  <span class="k">"name"</span>: <span class="s">"Shikhar Yadav"</span>,
+  <span class="k">"education"</span>: <span class="s">"B.Tech CSE @ PSIT, Kanpur"</span>,
+  <span class="k">"cgpa"</span>: <span class="s">"8.04"</span>,
+  <span class="k">"focus"</span>: [
+    <span class="s">"Full-Stack Development"</span>,
+    <span class="s">"Applied Machine Learning"</span>
+  ],
+  <span class="k">"activeOn"</span>: [
+    <span class="s">"LeetCode"</span>, <span class="s">"Codeforces"</span>, <span class="s">"CodeChef"</span>
+  ],
+  <span class="k">"status"</span>: <span class="s">"open to opportunities"</span>
+}</pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CODING PROFILES -->
+        <section id="coding">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <div class="eyebrow">// 02 — problem solving</div>
+                    <h2>Where I spend my practice time.</h2>
+                    <p class="sub">Pulled live from each platform's public API — refreshes every time this page loads.
+                    </p>
+                </div>
+
+                <div class="profile-grid reveal">
+                    <div class="profile-card">
+                        <div class="profile-head">
+                            <div class="badge badge-lc">LC</div>
+                            <div>
+                                <h3>LeetCode</h3>
+                                <a href="https://leetcode.com/shikharyadav07" target="_blank" rel="noopener"
+                                    class="handle">@shikharyadav07 ↗</a>
+                            </div>
+                        </div>
+                        <div class="profile-body" id="lc-body">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line short"></div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-head">
+                            <div class="badge badge-cf">CF</div>
+                            <div>
+                                <h3>Codeforces</h3>
+                                <a href="https://codeforces.com/profile/shikharyadav595" target="_blank" rel="noopener"
+                                    class="handle">@shikharyadav595 ↗</a>
+                            </div>
+                        </div>
+                        <div class="profile-body" id="cf-body">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line short"></div>
+                        </div>
+                    </div>
+
+                    <div class="profile-card">
+                        <div class="profile-head">
+                            <div class="badge badge-cc">CC</div>
+                            <div>
+                                <h3>CodeChef</h3>
+                                <a href="https://www.codechef.com/users/shikhar_77" target="_blank" rel="noopener"
+                                    class="handle">@shikhar_77 ↗</a>
+                            </div>
+                        </div>
+                        <div class="profile-body" id="cc-body">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line short"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="live-note">Live data via Codeforces' official API and community-maintained LeetCode/CodeChef
+                    APIs — if a platform is briefly unreachable, a direct profile link takes its place.</p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <div class="eyebrow">// 03 — stack</div>
+                    <h2>Tools I reach for.</h2>
+                </div>
+
+                <div class="skill-groups reveal">
+                    <div class="skill-group">
+                        <h3>Languages</h3>
+                        <div class="chip-row">
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                    onerror="this.remove()">Java</span>
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                    onerror="this.remove()">Python</span>
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                                    onerror="this.remove()">C</span>
+                            <span class="chip"><svg class="dbicon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <ellipse cx="12" cy="5" rx="8" ry="3" />
+                                    <path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5" />
+                                    <path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3" />
+                                </svg>SQL</span>
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    onerror="this.remove()">JavaScript</span>
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                    onerror="this.remove()">TypeScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Frontend</h3>
+                        <div class="chip-row">
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                    onerror="this.remove()">React</span>
+                            <span class="chip"><img class="invert"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                                    onerror="this.remove()">Next.js</span>
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                                    onerror="this.remove()">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Backend</h3>
+                        <div class="chip-row">
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                    onerror="this.remove()">Node.js</span>
+                            <span class="chip"><img class="invert"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                                    onerror="this.remove()">Express</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Data &amp; ML</h3>
+                        <div class="chip-row">
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                                    onerror="this.remove()">TensorFlow</span>
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg"
+                                    onerror="this.remove()">Matplotlib</span>
+                            <span class="chip">Streamlit</span>
+                        </div>
+                    </div>
+                    <div class="skill-group" style="grid-column: span 2;">
+                        <h3>Tools &amp; Infra</h3>
+                        <div class="chip-row">
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                                    onerror="this.remove()">Docker</span>
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                    onerror="this.remove()">Git</span>
+                            <span class="chip"><img class="invert"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                    onerror="this.remove()">GitHub</span>
+                            <span class="chip"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                                    onerror="this.remove()">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <div class="eyebrow">// 04 — projects</div>
+                    <h2>A few things I've built.</h2>
+                </div>
+
+                <div class="project reveal">
+                    <div class="project-num">01</div>
+                    <div>
+                        <div class="project-top">
+                            <h3>Civic Connect</h3>
+                            <span class="project-tag">live</span>
+                        </div>
+                        <p class="desc">
+                            A civic issue-reporting platform that lets residents mark problems directly on an
+                            interactive map and track resolution status in real time. Firebase-based Google
+                            sign-in keeps every report tied to a persistent user profile, wrapped in a
+                            responsive React interface built to keep submitting and tracking friction-free.
+                        </p>
+                        <div class="tech-row">
+                            <span>React</span><span>Firebase</span><span>Google Auth</span><span>Interactive
+                                Maps</span><span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://civiccconnect.vercel.app/" target="_blank" rel="noopener" class="live">↗
+                                Live demo</a>
+                            <a href="https://github.com/Shikharyadav25/Civic-Connect" target="_blank" rel="noopener">↗
+                                View code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project reveal">
+                    <div class="project-num">02</div>
+                    <div>
+                        <div class="project-top">
+                            <h3>Stock Bull</h3>
+                            <span class="project-tag">76.38% test accuracy</span>
+                        </div>
+                        <p class="desc">
+                            An AI-assisted stock prediction platform combining Random Forest, XGBoost, and
+                            LightGBM models with sentiment signals pulled from Google News and FinBERT, layered
+                            on top of historical NSE price data. PostgreSQL handles storage, while a Streamlit
+                            and Matplotlib dashboard surfaces technical indicators, charts, and confidence scores.
+                        </p>
+                        <div class="tech-row">
+                            <span>Python</span><span>scikit-learn</span><span>XGBoost</span><span>LightGBM</span><span>FinBERT</span><span>PostgreSQL</span><span>Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shikharyadav25/Stock-Bull" target="_blank" rel="noopener">↗ View
+                                code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project reveal">
+                    <div class="project-num">03</div>
+                    <div>
+                        <div class="project-top">
+                            <h3>DSA Tracker</h3>
+                            <span class="project-tag">practice tool</span>
+                        </div>
+                        <p class="desc">
+                            A full-stack tracker for logging and reviewing DSA practice — organizing solved
+                            problems by topic and platform so revision has structure instead of scattered
+                            notes and browser tabs.
+                        </p>
+                        <div class="tech-row">
+                            <span>TypeScript</span><span>React</span><span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shikharyadav25/DSA-Tracker" target="_blank" rel="noopener">↗
+                                View code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project reveal">
+                    <div class="project-num">04</div>
+                    <div>
+                        <div class="project-top">
+                            <h3>littleshell</h3>
+                            <span class="project-tag">systems programming</span>
+                        </div>
+                        <p class="desc">
+                            A Unix shell built from scratch in C — parsing commands and handling process
+                            execution directly via fork/exec, without leaning on any external shell library.
+                        </p>
+                        <div class="tech-row">
+                            <span>C</span><span>Makefile</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shikharyadav25/shell" target="_blank" rel="noopener">↗ View
+                                code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="wrap">
+                <div class="contact-box reveal">
+                    <div class="eyebrow" style="justify-content:center;">// 05 — connect</div>
+                    <h2>Let's connect.</h2>
+                    <p>Open to internships, collaborations, and interesting problems. My inbox is always open.</p>
+                    <div class="social-row">
+                        <a href="mailto:shikharyadav704@gmail.com" class="btn btn-primary js-say-hi">Email me ↗</a>
+                        <a href="https://github.com/Shikharyadav25" target="_blank" rel="noopener"
+                            class="btn btn-ghost">GitHub</a>
+                        <a href="https://www.linkedin.com/in/shikhar-yadav-16733330a/" target="_blank" rel="noopener"
+                            class="btn btn-ghost">LinkedIn</a>
+                        <a href="https://leetcode.com/shikharyadav07" target="_blank" rel="noopener"
+                            class="btn btn-ghost">LeetCode</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="wrap footer-inner">
+            <span>© 2026 Shikhar Yadav</span>
+            <span>built with intent, not a template</span>
+        </div>
+    </footer>
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/animations.js" defer></script>
+    <script src="js/stats.js" defer></script>
+
+</body>
+
+</html>
