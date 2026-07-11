@@ -11,6 +11,9 @@
     const tickerData = [
         { label: 'STOCK-BULL', value: '76.38% ACC' },
         { label: 'CIVIC-CONNECT', value: 'LIVE' },
+        { label: 'MIRR', value: 'ISRO BAH' },
+        { label: 'CUREME AI', value: 'IIT DELHI' },
+        { label: 'ORION', value: 'EY TECHATHON' },
         { label: 'STATUS', value: 'OPEN TO WORK' },
         { label: 'DSA-TRACKER', value: 'TS + REACT' },
         { label: 'LITTLESHELL', value: 'C SYSTEMS' },

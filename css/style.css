@@ -895,6 +895,128 @@ section {
     border-color: rgba(61, 220, 132, .4);
 }
 
+.project-links a.live {
+    color: var(--green);
+    border-color: rgba(61, 220, 132, .4);
+}
+
+/* ---------- HACKATHONS ---------- */
+.hackathon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.hackathon-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    transition: border-color .25s, transform .25s, box-shadow .25s;
+}
+
+.hackathon-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: transparent;
+    transition: background .25s;
+}
+
+.hackathon-card.mirr-card:hover::before {
+    background: linear-gradient(90deg, #5ea5f0, #3ddc84);
+}
+
+.hackathon-card.cureme-card:hover::before {
+    background: linear-gradient(90deg, var(--violet), #e879a0);
+}
+
+.hackathon-card.orion-card:hover::before {
+    background: linear-gradient(90deg, var(--amber), #ff6b6b);
+}
+
+.hackathon-card:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.hackathon-badge {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.hackathon-badge.isro {
+    background: rgba(94, 165, 240, 0.1);
+    color: #5ea5f0;
+    border: 1px solid rgba(94, 165, 240, 0.25);
+}
+
+.hackathon-badge.iit {
+    background: rgba(167, 139, 250, 0.1);
+    color: var(--violet);
+    border: 1px solid rgba(167, 139, 250, 0.25);
+}
+
+.hackathon-badge.ey {
+    background: rgba(251, 191, 36, 0.1);
+    color: var(--amber);
+    border: 1px solid rgba(251, 191, 36, 0.25);
+}
+
+.hackathon-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.hackathon-content h3 {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.hackathon-subtitle {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+}
+
+.hackathon-content p.desc {
+    color: var(--text-dim);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+@media (max-width: 960px) {
+    .hackathon-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .hackathon-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ---------- CONTACT ---------- */
 .contact-box {
     border: 1px solid var(--border);
