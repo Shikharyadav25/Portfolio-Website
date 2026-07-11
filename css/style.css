@@ -1094,6 +1094,8 @@ footer {
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 860px) {
+
+
     .about-grid {
         grid-template-columns: 1fr;
     }
